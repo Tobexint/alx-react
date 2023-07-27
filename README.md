@@ -1,1 +1,1 @@
-### Repository for React projects
+## Repository for React projects
