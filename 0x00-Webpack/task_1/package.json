@@ -2,20 +2,18 @@
   "name": "task_1",
   "version": "1.0.0",
   "description": "webpack config",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "main": "webpack.config.js",
   "dependencies": {
     "jquery": "^3.7.0",
     "lodash": "^4.17.21",
-  },
-  "devDependencies": {
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
