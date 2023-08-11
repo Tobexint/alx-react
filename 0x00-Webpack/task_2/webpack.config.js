@@ -10,6 +10,7 @@ module.exports = {
 	   filename: 'bundle.js',
 	},
 	performance: {
+		hints: false,
 		maxAssetSize: 1000000,
 		maxEntrypointSize: 1000000,
 	},
@@ -17,7 +18,7 @@ module.exports = {
 	  rules: [
 	    ...
 	    {
-	      test: /\.css$/,
+	      test: /\.css$/i,
 	      use: ["style-loader", "css-loader"]
 	    },
 	    {
@@ -26,8 +27,8 @@ module.exports = {
 	      use: [
 		'file-loader',
 		     {
-			loader: 'image-webpack-loader,
-			 options: {
+			loader: 'image-webpack-loader',
+			options: {
 				 bypassOndebug: true,
 				 disable: true,
 			 },
